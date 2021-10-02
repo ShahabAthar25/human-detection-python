@@ -1,6 +1,6 @@
 import cv2
-from modules.pose_tracker import pose_detector
-from modules.hand_tracker import hand_detector
+from modules.pose_detection import pose_detector
+from modules.hand_detection import hand_detector
 
 cap = cv2.VideoCapture(0)
 detector_pose = pose_detector()
