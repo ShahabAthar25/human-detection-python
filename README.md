@@ -46,5 +46,4 @@ This Program captures your pose and shows it to you in real time
 
 ## General Guidelines
 
-- Make sure the microphone is connected
 - Make sure requirment.txt is installed
