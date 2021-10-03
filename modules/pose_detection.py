@@ -39,7 +39,7 @@ class pose_detector():
         return img
 
 
-    def get_specific_pose(self, img, draw=True):
+    def get_landmark(self, img, draw=True):
 
         cords = []
 

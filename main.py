@@ -10,7 +10,9 @@ while True:
     success, img = cap.read()
 
     detector_pose.find_pose(img)
-    detector_hand.find_hand(img)
+    detector_hand.find_hand(img, draw=False)
+    middle_fingle = detector_hand.get_landmark(img)
+    print(middle_fingle[10:12])
 
     cv2.imshow("Human Detector", img)
 
